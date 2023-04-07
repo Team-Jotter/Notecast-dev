@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListCell?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.text.Text?>
+<fx:root type="javafx.scene.control.ListCell" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+    <graphic>
+        <VBox>
+            <HBox>
+            <Label text="Parts of speech: " textFill="#353535" />
+                
+                <Text fx:id="posText" textAlignment="CENTER" />
+            </HBox>
+            <ListView fx:id="definitionListView"/>
+        </VBox>
+    </graphic>
+</fx:root>
