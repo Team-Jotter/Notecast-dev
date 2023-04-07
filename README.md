@@ -1,4 +1,4 @@
-<h1 align="center">Notecast-dev</h1>
+<h1 align="center">Notecast</h1>
 
 <p align="center">A Note Organizing App</p>
 ## Links
